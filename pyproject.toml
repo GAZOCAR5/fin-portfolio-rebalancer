@@ -1,0 +1,13 @@
+[project]
+name = "portfolio-manager"
+version = "0.1.0"
+description = "Portfolio module with target allocation and rebalancing"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
